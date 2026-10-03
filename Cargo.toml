@@ -1,0 +1,10 @@
+[package]
+edition = "2024"
+name = "fmlib"
+version = "0.1.0"
+
+[workspace]
+members = ["cli"]
+
+[dependencies]
+rayon = "1.12"
